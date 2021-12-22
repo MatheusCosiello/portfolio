@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+/* design responsivo-screen*/
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  } 
+  .col { /* class do body total */
+    width: 100%; /* 60 / 960 = 0.0625 / width altera height junto na mesma proporção */
+  } 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  
+}
+
+body{
+    font-size: 100%;
+    position: relative;
+    width: 1920px;
+    height: 1100px;
+    
+    background: linear-gradient(72.66deg, rgba(1, 0, 0, 0.99) 5.51%, rgba(8, 1, 10, 0.991406) 54.83%, #2F0549 98.52%);
+   
+}
+
+.HeaderClass{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;  
+}
+
+.HeaderClass-menu{
+    height: 72px;
+    display: flex;
+    gap: 30px;
+}
+
+.HeaderClass-menu-item{
+    font-family: 'Sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 30px
+   
+}
+
+.MainClass{
+    margin-bottom: 48px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.MainClass-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.MainClass-principal-texto{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+.MainClass-principal-texto-titulo{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #ffffff;
+}
+
+.MainClass-principal-texto-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+  }
+
+  .MainClass-principal-button{
+    background-color: #ffffff;
+    width: 180px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+  }
+
+  .MainClass-principal-button:hover{
+    background-color: rgba(173, 132, 99, 0.53);
+    color: #ffffff;
+  }
+
+  .MainClass-principal-Foto{
+    width: 300px;
+    height: 300px;
+    left: 1214px;
+    top: 153px;  
+  }
+
+  .MainClass-secundario{
+      
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+  }
+
+  .MainClass-row{
+     
+      color: #ffffff;
+      width: 61%;
+
+  }
+
+  .MainClass-secundario-Titulo{
+
+    
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 16px;
+  }
+
+.MainClass-secundario-Texto{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.FooterClass{
+    padding: 32px;
+    border-top: 0.4px solid #FFF2E7;
+}
+
+.FooterClass-Texto{
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 50px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 32px; 
+    gap: 32px; 
+    height: 20px;
+    border: 32px;
+    margin: 32px;
+
+}
